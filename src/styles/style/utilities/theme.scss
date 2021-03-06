@@ -3,9 +3,21 @@
 .light {
 	--theme-text-color: #{$dark};
 	--theme-text-backgroundcolor: #{$light};
+
+	--theme-color-primary: #{$primary};
+	--theme-color-secondary: #{$secondary};
+	--theme-color-light: #{$light};
+	--theme-color-dark: #{$dark};
+	--theme-color-white: #{$white};
 }
 
 .dark {
 	--theme-text-color: #{$light};
 	--theme-text-backgroundcolor: #{$dark};
+
+	--theme-color-primary: #{$primary};
+	--theme-color-secondary: #{$secondary};
+	--theme-color-light: #{$light};
+	--theme-color-dark: #{$dark};
+	--theme-color-white: #{$white};
 }

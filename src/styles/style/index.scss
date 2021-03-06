@@ -23,5 +23,21 @@ body {
 }
 
 .app {
-	background-color: var(--theme-text-backgroundcolor);
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+html {
+	background-color: #fff;
+}
+
+main {
+	position: relative;
+	z-index: 1;
+	background-color: white;
+
+	flex: 1 0 auto;
 }
