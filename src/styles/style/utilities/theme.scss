@@ -1,13 +1,11 @@
 @import 'variables';
 
 .light {
-	--theme-color: green;
-	--theme-page-background: #FFF;
-	--theme-page-text: #111;
+	--theme-text-color: #{$dark};
+	--theme-text-backgroundcolor: #{$light};
 }
 
 .dark {
-	--theme-color: red;
-	--theme-page-background: #111;
-	--theme-page-text: #FFF;
+	--theme-text-color: #{$light};
+	--theme-text-backgroundcolor: #{$dark};
 }

@@ -1,3 +1,6 @@
+@import "utilities/variables";
+@import "utilities/texts";
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -19,8 +22,6 @@ body {
 	transition: all 0.3s;
 }
 
-div {
-	background-color: var(--theme-color);
+.app {
+	background-color: var(--theme-text-backgroundcolor);
 }
-
-@import "utilities/variables";
