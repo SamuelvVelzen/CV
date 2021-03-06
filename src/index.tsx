@@ -1,11 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.css';
+
 import * as React from 'react';
 import { useState } from 'react';
 import * as ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import './styles/style/index.scss';
-import './styles/style/utilities/theme.scss';
+
 import App from './pages/app';
 import ThemeContext from './pages/utilities/themecontext';
+import './styles/style/index.scss';
+import './styles/style/utilities/theme.scss';
 
 function Index() {
     const [theme, setTheme] = useState<string>('light');
