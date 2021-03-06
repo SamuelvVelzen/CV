@@ -24,17 +24,20 @@ body {
 
 .app {
 	min-height: 100vh;
-	background-color: var(--theme-text-backgroundcolor);
 
 	display: flex;
 	flex-direction: column;
 }
 
+
+html {
+	background-color: #fff;
+}
+
 main {
+	position: relative;
+	z-index: 1;
+	background-color: white;
+
 	flex: 1 0 auto;
 }
-
-footer {
-	flex-shrink: 0;
-}
-

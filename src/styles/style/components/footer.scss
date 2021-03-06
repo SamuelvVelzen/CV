@@ -1,0 +1,29 @@
+footer {
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 0;
+	background-color: var(--theme-color-secondary);
+	color: var(--theme-color-light);
+	padding: 20px;
+
+	.footer-inner {
+		display: flex;
+		justify-content: center;
+
+		a {
+			display: block;
+			cursor: pointer;
+
+			&:nth-child(2) {
+				margin: 0 20px;
+			}
+		}
+
+		img {
+			cursor: pointer;
+			display: block;
+			height: 40px;
+			width: auto;
+		}
+	}
+}
