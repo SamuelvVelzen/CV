@@ -23,7 +23,7 @@ function Navbar(): ReactElement {
         }
     };
 
-    window.addEventListener('resize', (event: UIEvent) => {
+    window.addEventListener('resize', () => {
         if (window.innerWidth > 575) {
             if (menuItems && menuItems.current && menuButton && menuButton.current) {
                 const item = menuItems.current,
