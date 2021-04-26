@@ -1,0 +1,9 @@
+@import "./../utilities/variables";
+
+#fullText {
+	background-color: var(--theme-color-secondary);
+	padding: $default_spacing2 0;
+
+	.fullText-inner {
+	}
+}

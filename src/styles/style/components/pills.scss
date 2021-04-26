@@ -1,0 +1,21 @@
+@import "./../utilities/variables";
+
+.pills {
+
+	.pill {
+		margin-right: $default_spacing;
+		font-weight: bold;
+		padding: 5px 25px;
+		border-radius: 100px;
+		cursor: pointer;
+
+		border: 2px solid var(--theme-color-primary);
+		color: var(--theme-text-color);
+		background-color: var(--theme-text-backgroundcolor);
+
+		&.active {
+			background-color: var(--theme-color-primary);
+			color: var(--theme-color-light);
+		}
+	}
+}

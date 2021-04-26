@@ -1,0 +1,21 @@
+.m {
+	&-default {
+		margin: $default_spacing;
+	}
+
+	&t-default {
+		margin-top: $default_spacing;
+	}
+
+	&l-default {
+		margin-left: $default_spacing;
+	}
+
+	&r-default {
+		margin-right: $default_spacing;
+	}
+
+	&b-default {
+		margin-bottom: $default_spacing;
+	}
+}

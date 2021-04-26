@@ -1,5 +1,8 @@
+@import './variables';
+
 .title {
 	font-size: 48px;
+	display: block;
 
 	&.bold {
 		font-weight: bold;
@@ -8,6 +11,7 @@
 
 .subtitle {
 	font-size: 24px;
+	display: block;
 
 	&.bold {
 		font-weight: bold;
@@ -16,9 +20,14 @@
 
 .text {
 	font-size: 18px;
+	display: block;
 	line-height: 25px;
 
 	&.bold {
 		font-weight: bold;
 	}
+}
+
+.text-primary {
+	color: $primary !important;
 }

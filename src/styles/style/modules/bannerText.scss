@@ -1,0 +1,10 @@
+@import "./../utilities/variables";
+
+#bannerText {
+	background-color: var(--theme-text-backgroundcolor);
+	padding-bottom: $default_spacing;
+
+	span {
+		color: var(--theme-text-color);
+	}
+}
