@@ -8,6 +8,8 @@ import App from './pages/app';
 import ThemeContext from './pages/utilities/themecontext';
 import './styles/style/index.scss';
 import './styles/style/utilities/theme.scss';
+import { Provider } from 'react-redux';
+import store from './store/store';
 
 function Index() {
     const [theme, setTheme] = useState<string>('light');
@@ -18,7 +20,9 @@ function Index() {
 
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <App />
+            <Provider store={store}>
+                <App />
+            </Provider>
         </ThemeContext.Provider>
     );
 }
